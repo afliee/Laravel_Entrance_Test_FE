@@ -1,0 +1,53 @@
+.app {
+  text-align: center;
+  padding: 20px;
+  background-color: #e0f7fa;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.weather-card, .forecast-card {
+  background-color: #bbdefb;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.forecast-grid {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  margin-left: 5px;
+  padding: 5px 10px;
+}
+
+/* App.css */
+
+body {
+  margin: 0; /* Remove default body margin */
+  padding: 0; /* Remove default body padding */
+  width: 100%; /* Ensure body takes full width */
+}
+
+.full-width-background {
+  background-color: #f5f5f5; /* Background color */
+  min-height: 100vh; /* Cover the full viewport height */
+  display: flex; /* Use flexbox for centering */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  width: 100%; /* Full width */
+  flex-grow: 1; /* Grow to fill the remaining space */
+}
+
+.header {
+  margin-bottom: 16px; /* Space below the header */
+}
+
+.forecast-container {
+  width: 100%; /* Full width for the forecast section */
+}
+
